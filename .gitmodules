@@ -1,0 +1,3 @@
+[submodule "Criston/vendor/spdlog"]
+	path = Criston/vendor/spdlog
+	url = https://github.com/gabime/spdlog

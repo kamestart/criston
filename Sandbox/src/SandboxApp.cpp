@@ -1,5 +1,4 @@
 #include <Criston.h>
-#include <stdio.h>
 
 class Sandbox : public Criston::Application
 {
@@ -18,6 +17,5 @@ public:
 
 Criston::Application* Criston::CreateApplication()
 {
-	printf("New Application Created!");
 	return new Sandbox;	
 };
